@@ -26,7 +26,7 @@ keywords.each do |keyword|
 
   # loop through x pages
   pageCount = 0
-  while pageCount < 1
+  while pageCount < 10
 
     # create full URL
     fullURL = urlBaseToQuery + keyword + urlQueryToIndex + pageCount.to_s + urlPostIndex
